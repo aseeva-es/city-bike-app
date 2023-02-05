@@ -4,6 +4,9 @@ I've chosen React for UI and Supabase (supabase.com) as the database and cloud b
 Tailwind.css is being used for fast prototyping and a more functional approach to styling components.
 Supabase is the easy way to have a backend in a Cloud. Data volume is pretty big and to save it to the local storage would not be realistic. Another reason for this choice was the relational data that we have, so the SQL type of database is logical choice for that. Supabase allows you to execute serverless functions based on postgres functions, which basically allows you to implement all the backend functionality there. 
 
+## Live demo
+Live demo can be found at https://aseeva-es.github.io/city-bike-app
+
 ## Implemented features
 The purpose of the assignment was to code a web application with a good code, get all recommended features complete, write tests and understandable documentation. I believe, that it was done. Additionally, I have implemented a few extra points:
 - Pagination. Implemented for journeys and stations via React Router routes, per page limit is hard-coded.
