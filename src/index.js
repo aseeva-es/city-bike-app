@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
 import "./index.css";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import supabase from "./config/supabaseClient";
 import getPoints from "./functions/getPoints/getPoints";
 import getJourneys from "./functions/getJourneys/getJourneys";
@@ -14,7 +14,7 @@ import StationPage from "./pages/StationPage/StationPage";
 import getStation from "./functions/getStation/getStation";
 import StationsList from "./pages/StationsList";
 import JourneysList from "./pages/JourneysList";
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <App />,
